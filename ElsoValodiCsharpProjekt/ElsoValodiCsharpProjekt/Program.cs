@@ -138,6 +138,44 @@ namespace ElsoValodiCharpProjekt
                 Console.WriteLine("A feladat nem megoldható!");
             }*/
 
+            //15. feladat
+
+            /* Console.WriteLine("Kérem a potitiv egész szám");
+             int bemenoszam = Int32.Parse(Console.ReadLine());
+             /* string kiiratas = "";
+
+              for (int i = 0; i <= bemenoszam; i++)
+              {
+                  kiiratas += i + " ";
+              }
+              Console.WriteLine(kiiratas); */
+
+            /*for (int i = 0; i < bemenoszam; i++)
+            {
+                Console.Write(i + " ");
+            }*/
+
+            Console.WriteLine("Kérem a potitiv egész szám");
+            int bemenoszam = Int32.Parse(Console.ReadLine());
+
+            int i = 1;
+            //Eköl tesztelő ciklus
+            while (i < bemenoszam)
+            {
+                Console.Write(i++ + " ");
+                // i = i + 1;
+                //i += 1;
+                //i++;
+            }
+            do
+            {
+               Console.Write(i + " ")7
+
+            } while (trueI < bemenoszam);
+
+
+
+
             Console.ReadKey(true);
         }
     }
