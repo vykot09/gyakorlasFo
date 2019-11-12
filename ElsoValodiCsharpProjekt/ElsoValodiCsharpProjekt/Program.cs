@@ -338,7 +338,7 @@ namespace ElsoValodiCharpProjekt
 
             //22. feladat
 
-            int szam = 0;
+        /*    int szam = 0;
             int osszeg = 0;
 
             while (szam <= 10)
@@ -356,7 +356,7 @@ namespace ElsoValodiCharpProjekt
                     Console.WriteLine("Nem megfelelo szám!");
                 }
             }
-            Console.WriteLine($"A beolvasott számok összege: {osszeg}");
+            Console.WriteLine($"A beolvasott számok összege: {osszeg}");*/
 
 
             Console.ReadKey(true);
